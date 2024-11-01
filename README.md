@@ -70,7 +70,7 @@ Example
 To clone a website up to a depth of 2 and save it in a directory named my_clone:
 
 
-```python3 sitescraper.py https://example.com --depth 2 --output my_clone```
+```python3 sitescraper.py https://example.com -d 2 -o my_clone```
 
 
 
