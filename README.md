@@ -15,7 +15,7 @@ Clone the repository:
 ```git clone https://github.com/s-r-e-e-r-a-j/SITE-SCRAPER-TOOL.git```
 
 
-``` cd Site Scraper```
+``` cd 'Site Scraper' ```
 
 Requirements:
 
