@@ -72,7 +72,17 @@ To clone a website up to a depth of 2 and save it in a directory named my_clone:
 
 ```python3 sitescraper.py https://example.com -d 2 -o my_clone```
 
+Then a directory is inside the my_clone directory the directory name is you provided url
 
+then open the inside directory 
+
+there is a index.html file in it
+
+open it by executing 
+
+```firefox index.html```
+
+then you can see the cloned website
 
 How It Works
 SiteScraper follows these steps:
