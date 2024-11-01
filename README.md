@@ -20,7 +20,11 @@ Clone the repository:
 Requirements:
 
 ```requests```
+
+
 ```beautifulsoup4```
+
+
 ```argparse```
 
 Install It By Executing:
