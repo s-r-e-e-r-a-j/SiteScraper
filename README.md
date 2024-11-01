@@ -61,7 +61,7 @@ Option	Description
 ```-d, --depth (Optional) Set the maximum crawl depth (default: 3)```
 
 
-```-o, --output	(Optional) Set the output directory you can also specify path to save (default: website_clone)```
+```-o, --output	(Optional) Set the output directory (default: website_clone)     you can also specify path to save    example -o /home/kali/Desktop/result    ```
 
 
 
