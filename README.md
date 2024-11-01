@@ -61,7 +61,7 @@ Option	Description
 ```-d, --depth (Optional) Set the maximum crawl depth (default: 3)```
 
 
-```-o, --output	(Optional) Set the output directory (default: website_clone)```
+```-o, --output	(Optional) Set the output directory yo can also specify path to save (default: website_clone)```
 
 
 
@@ -70,7 +70,7 @@ Example
 To clone a website up to a depth of 2 and save it in a directory named my_clone:
 
 
-```python3 sitescraper.py https://example.com -d 2 -o my_clone```
+```python3 sitescraper.py https://example.com -d 2 -o /home/kali/Desktop/my_clone```
 
 Then a directory is inside the my_clone directory the directory name is you provided url
 
