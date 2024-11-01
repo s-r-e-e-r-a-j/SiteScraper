@@ -38,7 +38,7 @@ Install It By Executing:
 
 ```pip3 install argparse```
 
-If You Run This Tool any module is missing install it by executing on terminal
+If You Run This Tool any module is missing execute this command on terminal
 
 ```pip3 install missingmodulename```
 
