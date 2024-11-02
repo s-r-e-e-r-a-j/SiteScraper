@@ -30,6 +30,8 @@ Requirements:
 
 ```argparse```
 
+```os```
+
 Install It By Executing:
 
 ```pip3 install requests```
@@ -37,6 +39,8 @@ Install It By Executing:
 ```pip3 install beautifulsoup4```
 
 ```pip3 install argparse```
+
+```pip3 install os```
 
 If You Run This Tool any module is missing execute this command on terminal
 
