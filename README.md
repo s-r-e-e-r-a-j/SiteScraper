@@ -20,27 +20,10 @@ Clone the repository:
 
 ``` cd 'Site Scraper' ```
 
-Requirements:
+install Requirements for this tool:-
 
-```requests```
+```pip3 install -r requirements.txt```
 
-
-```beautifulsoup4```
-
-
-```argparse```
-
-```os```
-
-Install It By Executing:
-
-```pip3 install requests```
-
-```pip3 install beautifulsoup4```
-
-```pip3 install argparse```
-
-```pip3 install os```
 
 If You Run This Tool any module is missing execute this command on terminal
 
