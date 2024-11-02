@@ -1,6 +1,6 @@
 SiteScraper
 
-SiteScraper is an ethical hacking and website cloning tool built with Python. It enables users to download entire websites for offline access, analysis, and security assessments. Designed for ethical hackers, researchers, and developers, SiteScraper recursively crawls pages, follows internal links, and saves assets like HTML, CSS, images, and JavaScript, while preserving the original structure of the site
+The Site Scraper Tool is an ethical hacking program developed in Python that enables users to clone websites for educational purposes by copying HTML, CSS, JavaScript, and PHP. **Note:** Use this tool responsibly and only on sites where you have explicit permission, as unauthorized scraping can lead to legal issues.
 
 Use Responsibly
 
