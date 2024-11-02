@@ -67,8 +67,8 @@ python3 sitescraper.py <URL> [options]
 
 
 
-###
-Example
+
+### Example
 
 #### To clone a website up to a depth of 2 and save it in a directory named my_clone:
 
