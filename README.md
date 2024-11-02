@@ -76,9 +76,9 @@ To clone a website up to a depth of 2 and save it in a directory named my_clone:
 
 ```python3 sitescraper.py https://example.com -d 2 -o /home/kali/Desktop/my_clone```
 
-Then a directory is inside the my_clone directory the directory name is you provided url
+Then a directory is generated inside the my_clone directory the directory name is you provided url
 
-then open the inside directory 
+then open the that directory
 
 there is a index.html file in it
 
