@@ -28,7 +28,7 @@ cd 'Site Scraper'
 
 ### install Requirements(optional if you are using kali linux):-
 
-` In kali linux all requirements for this tool  are pre-installed on it  .so don't need to install requirements for this tool on kali linux`
+` In kali linux all requirements for this tool  are pre-installed on it.requirements means the packages required for this tool to work.so don't need to install requirements for this tool on kali linux`
 
 
 ```bash
