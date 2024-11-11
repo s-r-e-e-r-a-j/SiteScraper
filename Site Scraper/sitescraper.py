@@ -4,7 +4,7 @@ from urllib.parse import urljoin, urlparse
 import os
 import argparse
 
-print("""
+print("""\033[93m
 
 ###################sreeraj#############################sreeraj#####################################################
 ########sreeraj#####################sreeraj###################################################sreeraj##############
@@ -21,10 +21,10 @@ print("""
 
 ######################sreeraj#######################################sreeraj#######################################
 ##########sreeraj######################sreeraj############################################sreeraj#################
-######################sreeraj#############################sreeraj#################################################
+######################sreeraj#############################sreeraj#################################################\033[0m
 
 \n
-
+\033[92m
 **********************************************************************
 \n
 * copyright of Sreeraj,2024                                          *\n
@@ -35,7 +35,7 @@ print("""
 **********************************************************************
 \n
 
-   """)
+   \033[0m""")
 print("\n");
 
 # Set to avoid re-downloading the same URL
@@ -57,9 +57,9 @@ def save_file(url, root_dir):
 
             with open(file_path, "wb") as f:
                 f.write(response.content)
-            print(f"Saved: {file_path}")
+            print(f"\033[94mSaved: {file_path}\033[0m")
     except Exception as e:
-        print(f"Error saving {url}: {e}")
+        print(f"\033[31mError saving {url}: {e}\033[0m")
 
 def crawl(url, root_dir, max_depth=3, depth=0):
     if depth > max_depth or url in downloaded_urls:
