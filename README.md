@@ -13,7 +13,7 @@ The Site Scraper Tool is an ethical hacking program developed in Python that ena
 ### Clone the repository:
 
 ```bash
-git clone https://github.com/s-r-e-e-r-a-j/SITE-SCRAPER-TOOL.git
+git clone https://github.com/s-r-e-e-r-a-j/SiteScraper.git
 ```
 
 
