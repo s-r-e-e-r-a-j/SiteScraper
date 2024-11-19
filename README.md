@@ -19,7 +19,7 @@ git clone https://github.com/s-r-e-e-r-a-j/SITE-SCRAPER-TOOL.git
 
 
 ```bash
-cd SITE-SCRAPER-TOOL
+cd SiteScraper
 ```
 
 ``` bash
