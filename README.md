@@ -25,7 +25,11 @@ cd SiteScraper
 ``` bash
 cd 'Site Scraper'
  ```
-
+##### install the tool:
+```bash
+ sudo python3 install.py
+```
+Then Enter `y` for install
 ### install Requirements(optional if you are using kali linux):-
 
 ` In kali linux all requirements for this tool  are pre-installed on it.requirements means the packages required for this tool to work.so don't need to install requirements for this tool on kali linux`
@@ -104,6 +108,19 @@ SiteScraper follows these steps:
 
 
  4. `File Structure Preservation`: Saves files with the same structure as the original website, maintaining directories and paths.
+
+## uninstallation
+
+```bash
+  cd SiteScraper
+```
+```bash
+  cd 'Site Scraper'
+```
+```bash
+ sudo python3 install.py
+```
+Then Enter `n` for uninstall
 
 
 ## License
