@@ -112,13 +112,13 @@ SiteScraper follows these steps:
 ## uninstallation
 
 ```bash
-  cd SiteScraper
+cd SiteScraper
 ```
 ```bash
-  cd 'Site Scraper'
+cd 'Site Scraper'
 ```
 ```bash
- sudo python3 install.py
+sudo python3 install.py
 ```
 Then Enter `n` for uninstall
 
