@@ -16,7 +16,7 @@ print("""\033[93m
                                                             | |                                                
                                                             |_|                                                
 \033[0m
-* \033[92mcopyright of Sreeraj,2024   *\n
+\033[92m* copyright of Sreeraj,2024   *\n
 \n
 * www.youtube.com/@debugspecter   *\n
 \n
