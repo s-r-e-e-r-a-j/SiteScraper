@@ -27,7 +27,7 @@ cd 'Site Scraper'
  ```
 ##### install the tool:
 ```bash
- sudo python3 install.py
+sudo python3 install.py
 ```
 Then Enter `y` for install
 ### install Requirements(optional if you are using kali linux):-
