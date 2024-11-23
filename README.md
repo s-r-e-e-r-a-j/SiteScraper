@@ -52,7 +52,7 @@ pip3 install missingmodulename
  Run SiteScraper from the command line with the following options:
 
 ``` bash
-python3 sitescraper.py <URL> [options]
+sitescraper <URL> [options]
 ```
 
 
@@ -78,7 +78,7 @@ python3 sitescraper.py <URL> [options]
 
 
 ```bash
-python3 sitescraper.py https://example.com -d 2 -o /home/kali/Desktop/my_clone
+sitescraper https://example.com -d 2 -o /home/kali/Desktop/my_clone
 ```
 
  Then a directory is generated inside the my_clone directory the directory name is you provided url
