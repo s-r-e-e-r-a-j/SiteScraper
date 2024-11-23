@@ -16,11 +16,11 @@ print("""\033[93m
                                                             | |                                                
                                                             |_|                                                
 \033[0m
-* \033[92mcopyright of Sreeraj,2024    *\n
+* \033[92mcopyright of Sreeraj,2024   *\n
 \n
-* www.youtube.com/@debugspecter        *\n
+* www.youtube.com/@debugspecter   *\n
 \n
-* https://github.com/s-r-e-e-r-a-j     *\n
+* https://github.com/s-r-e-e-r-a-j   *\n
    \033[0m""")
 print("\n");
 
