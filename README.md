@@ -22,7 +22,7 @@ git clone https://github.com/s-r-e-e-r-a-j/SiteScraper.git
 cd SiteScraper
 ```
 
-### install Requirements(optional if you are using kali linux):-
+### install Requirements:-
 
 ` In kali linux all requirements for this tool  are pre-installed on it.requirements means the packages required for this tool to work.so don't need to install requirements for this tool on kali linux`
 
@@ -31,10 +31,11 @@ cd SiteScraper
 pip3 install -r requirements.txt
 ``````
 
+
+##### install the tool:
 ``` bash
 cd 'Site Scraper'
  ```
-##### install the tool:
 ```bash
 sudo python3 install.py
 ```
