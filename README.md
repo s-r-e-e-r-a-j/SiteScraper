@@ -17,6 +17,7 @@ git clone https://github.com/s-r-e-e-r-a-j/SiteScraper.git
 ```
 
 
+### Navigate to the SiteScraper directory
 
 ```bash
 cd SiteScraper
@@ -32,10 +33,11 @@ pip3 install -r requirements.txt
 ``````
 
 
-##### install the tool:
+### Navigate to the Site Scraper directory
 ``` bash
 cd 'Site Scraper'
  ```
+### install the tool:
 ```bash
 sudo python3 install.py
 ```
