@@ -14,15 +14,13 @@ print("""\033[93m
   ____) | | | | |_  |  __/    ____) | | (__  | |    | (_| | | |_) | |  __/ | |       
  |_____/  |_|  \__|  \___|   |_____/   \___| |_|     \__,_| | .__/   \___| |_|       
                                                             | |                                                
-                                                            |_|                                                
+                                                            |_|  
+
+                                                             Developer: Sreeraj
 \033[0m
-\033[92m* Copyright © Sreeraj, 2024   *\n
-\n
-* www.youtube.com/@debugspecter   *\n
-\n
-* https://github.com/s-r-e-e-r-a-j   *\n
-   \033[0m""")
-print("\n");
+\033[92m* Copyright © Sreeraj, 2024
+* GitHub: https://github.com/s-r-e-e-r-a-j 
+   \033[0m\n""")
 
 # Set to avoid re-downloading the same URL
 downloaded_urls = set()
