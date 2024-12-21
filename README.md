@@ -1,6 +1,9 @@
 # SiteScraper
 
-The Site Scraper Tool is an ethical hacking program developed in Python that enables users to clone websites for educational purposes by copying HTML, CSS, JavaScript, and PHP. **Note:** Use this tool responsibly and only on sites where you have explicit permission, as unauthorized scraping can lead to legal issues.
+The Site Scraper Tool is an ethical hacking program developed in Python that enables users to clone websites for educational purposes by copying HTML, CSS, JavaScript, and PHP.
+
+
+**Note:** Use this tool responsibly and only on sites where you have explicit permission, as unauthorized scraping can lead to legal issues.
 
 ## Use Responsibly
 
@@ -23,10 +26,7 @@ git clone https://github.com/s-r-e-e-r-a-j/SiteScraper.git
 cd SiteScraper
 ```
 
-### install Requirements:-
-
-` In kali linux all requirements for this tool  are pre-installed on it.requirements means the packages required for this tool to work.so don't need to install requirements for this tool on kali linux`
-
+### install Required libraries:-
 
 ```bash
 pip3 install -r requirements.txt
@@ -88,7 +88,7 @@ sitescraper https://example.com -d 2 -o /home/kali/Desktop/my_clone
 open it by executing 
 
 ``` bash
-firefox index.html
+open index.html
 ```
 
  then you can see the cloned website
