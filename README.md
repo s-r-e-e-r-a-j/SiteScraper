@@ -72,16 +72,16 @@ sitescraper <URL> [options]
 
 ### Example
 
- To clone a website up to a depth of 2 and save it in a directory named my_clone, use the following command:
+ To clone a website up to a depth of 2 and save it in a directory named `my_clone`, use the following command:
 
 ```bash
 sitescraper https://example.com -d 2 -o /home/kali/Desktop/my_clone
 ```
-After the cloning process is complete, a directory named after the domain (e.g., http.example.com) will be created inside my_clone.
+After the cloning process is complete, a directory named after the domain (e.g., `http.example.com`) will be created inside my_clone.
 
-To view the cloned website, open the index.html file in a browser.
+To view the cloned website, open the `index.html` file in a browser.
 
-If you see .php files in the directory, it means the website has a PHP backend, and you need to start a PHP server to run it properly.
+If you see `.php` files in the directory, it means the website has a PHP backend, and you need to start a PHP server to run it properly.
 
 #### Starting the PHP Server
 1. **Navigate to the Cloned Website Directory***
@@ -90,7 +90,7 @@ bash
 cd /home/kali/Desktop/my_clone/http.example.com
 ```
 3. **Start the PHP Server**
-Replace yourmachineipaddress with your actual local IP (e.g., 192.168.1.5):
+Replace `yourmachineipaddress` with your actual local IP (e.g., `192.168.1.5`):
 
 ```nginx
 php -S yourmachineipaddress:8080
