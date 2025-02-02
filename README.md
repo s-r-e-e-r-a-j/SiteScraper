@@ -81,18 +81,38 @@ sitescraper https://example.com -d 2 -o /home/kali/Desktop/my_clone
 
  Then a directory is generated inside the my_clone directory the directory name is you provided url
 
- then open the that directory
+You Can See All the Files in That directory.
 
- there is a index.html file in it
+you can see the cloned website by opening the index.html file in that directory
 
-open it by executing 
+If You See Some Php Files In That Directory.that means the backend of that website is maded with php.then start php server in the directory named you provided domain
 
-``` bash
-open index.html
+1. **Go to Directory named You provided domain name**
+
+```bash
+  cd http.example.com
 ```
+2. **Start the PHP Server**
+   
+```bash
+ php -S yourmachineipaddress:8080
+```
+**example**
 
- then you can see the cloned website
+```bash
+php -S 192.168.1.5:8080
+```
+3. **open your webbrowser**
 
+**Then Enter** 
+```bash
+ yourmachineipaddress:8080
+```
+**example**
+```bash
+192.168.1.5:8080
+```
+**Then You Can See The Cloned Website**
 #### How It Works
 SiteScraper follows these steps:
 
