@@ -85,8 +85,8 @@ If you see `.php` files in the directory, it means the website has a PHP backend
 
 #### Starting the PHP Server
 1. **Navigate to the Cloned Website Directory***
-```
-bash
+   
+```bash
 cd /home/kali/Desktop/my_clone/http.example.com
 ```
 3. **Start the PHP Server**
