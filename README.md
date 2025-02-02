@@ -79,15 +79,15 @@ sitescraper <URL> [options]
 sitescraper https://example.com -d 2 -o /home/kali/Desktop/my_clone
 ```
 
- Then a directory is generated inside the my_clone directory the directory name is you provided url
+ Then a directory is generated inside the my_clone directory the directory name is you provided domain [url]
 
 You Can See All the Files in That directory.
 
 you can see the cloned website by opening the index.html file in that directory
 
-If You See Some Php Files In That Directory.that means the backend of that website is maded with php.then start php server in the directory named you provided domain
+If You See Some Php Files In That Directory.that means the backend of that website is maded with php.then start php server in the directory named you provided domain [url]
 
-1. **Go to Directory named You provided domain name**
+1. **Go to Directory named You provided domain name [url]**
 
 ```bash
   cd http.example.com
