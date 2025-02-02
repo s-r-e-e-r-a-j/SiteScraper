@@ -102,6 +102,8 @@ php -S yourmachineipaddress:8080
 php -S 192.168.1.5:8080
 ```
 3. **Open the Cloned Website in a Browser**
+
+   
 In your web browser, enter:
 
 ```arduino
