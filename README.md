@@ -72,47 +72,50 @@ sitescraper <URL> [options]
 
 ### Example
 
- To clone a website up to a depth of 2 and save it in a directory named my_clone:
-
+ To clone a website up to a depth of 2 and save it in a directory named my_clone, use the following command:
 
 ```bash
 sitescraper https://example.com -d 2 -o /home/kali/Desktop/my_clone
 ```
+After the cloning process is complete, a directory named after the domain (e.g., http.example.com) will be created inside my_clone.
 
- Then a directory is generated inside the my_clone directory the directory name is you provided domain [url]
+To view the cloned website, open the index.html file in a browser.
 
-You Can See All the Files in That directory.
+If you see .php files in the directory, it means the website has a PHP backend, and you need to start a PHP server to run it properly.
 
-you can see the cloned website by opening the index.html file in that directory
-
-If You See Some Php Files In That Directory.that means the backend of that website is maded with php.then start php server in the directory named you provided domain [url]
-
-1. **Go to Directory named You provided domain name [url]**
-
-```bash
-  cd http.example.com
+#### Starting the PHP Server
+1. **Navigate to the Cloned Website Directory***
 ```
-2. **Start the PHP Server**
-   
-```bash
- php -S yourmachineipaddress:8080
+bash
+cd /home/kali/Desktop/my_clone/http.example.com
 ```
-**example**
+3. **Start the PHP Server**
+Replace yourmachineipaddress with your actual local IP (e.g., 192.168.1.5):
 
-```bash
+```nginx
+php -S yourmachineipaddress:8080
+```
+
+**Example:**
+
+```nginx
 php -S 192.168.1.5:8080
 ```
-3. **open your webbrowser**
+3. **Open the Cloned Website in a Browser**
+In your web browser, enter:
 
-**Then Enter** 
-```bash
- yourmachineipaddress:8080
+```arduino
+http://yourmachineipaddress:8080
 ```
-**example**
-```bash
-192.168.1.5:8080
+**Example:**
+
+```cpp
+http://192.168.1.5:8080
 ```
-**Then You Can See The Cloned Website**
+
+**Now, you should be able to access and interact with the cloned website.**
+
+
 #### How It Works
 SiteScraper follows these steps:
 
