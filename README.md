@@ -84,7 +84,7 @@ To view the cloned website, open the `index.html` file in a browser.
 If you see `.php` files in the directory, it means the website has a PHP backend, and you need to start a PHP server to run it properly.
 
 #### Starting the PHP Server
-1. **Navigate to the Cloned Website Directory***
+1. **Navigate to the Cloned Website Directory**
    
 ```bash
 cd /home/kali/Desktop/my_clone/http.example.com
