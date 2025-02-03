@@ -90,6 +90,8 @@ If you see `.php` files in the directory, it means the website has a PHP backend
 cd /home/kali/Desktop/my_clone/http.example.com
 ```
 3. **Start the PHP Server**
+
+   
 Replace `yourmachineipaddress` with your actual local IP (e.g., `192.168.1.5`):
 
 ```nginx
