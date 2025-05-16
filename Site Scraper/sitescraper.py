@@ -20,7 +20,7 @@ print(r"""
 
                                                              Developer: Sreeraj
    """)
-print("\033[92m* GitHub: https://github.com/s-r-e-e-r-a-j/033[0m")
+print("\033[92m* GitHub: https://github.com/s-r-e-e-r-a-j/033[0m\n")
 
 # Set to avoid re-downloading the same URL
 downloaded_urls = set()
