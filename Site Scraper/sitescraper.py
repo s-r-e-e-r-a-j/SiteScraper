@@ -4,7 +4,8 @@ from urllib.parse import urljoin, urlparse
 import os
 import argparse
 
-print("""\033[93m
+print("\033[93m")
+print(r"""
 
 
    _____   _   _               _____                                                
@@ -16,10 +17,10 @@ print("""\033[93m
                                                             | |                                                
                                                             |_|  
 
+
                                                              Developer: Sreeraj
-\033[0m
-\033[92m* GitHub: https://github.com/s-r-e-e-r-a-j 
-   \033[0m\n""")
+   """)
+print("\033[92m* GitHub: https://github.com/s-r-e-e-r-a-j/033[0m")
 
 # Set to avoid re-downloading the same URL
 downloaded_urls = set()
