@@ -3,7 +3,7 @@ choice = input('[+] to install press (Y) to uninstall press (N) >> ')
 run = os.system
 if str(choice) =='Y' or str(choice)=='y':
 
-    run('chmod 777 sitescraper.py')
+    run('chmod 755 sitescraper.py')
     run('mkdir /usr/share/sitescraper')
     run('cp sitescraper.py /usr/share/sitescraper/sitescraper.py')
 
