@@ -1,4 +1,2 @@
 requests
 BeautifulSoup4
-bs4
-argparse
