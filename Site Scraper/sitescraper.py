@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
@@ -80,3 +82,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
