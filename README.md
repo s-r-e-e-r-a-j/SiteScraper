@@ -5,10 +5,9 @@ The Site Scraper Tool is an ethical hacking program developed in Python that ena
 
 **Note:** Use this tool responsibly and only on sites where you have explicit permission, as unauthorized scraping can lead to legal issues.
 
-## Use Responsibly
+## Disclaimer 
 
-
- `Warning`: Use SiteScraper only on websites you own or have explicit permission to test and analyze. Unauthorized use of this tool on external sites without permission may violate laws and terms of service.
+SiteScraper should only be used on websites you own or have explicit permission to test and analyze. Unauthorized use on external sites without permission may violate laws and terms of service. The author is not responsible for any misuse or legal consequences resulting from the use of this tool.
 
 ## Compatibility
 - Linux (Debian, RedHat, Arch)
