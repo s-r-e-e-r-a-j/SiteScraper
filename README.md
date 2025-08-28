@@ -26,7 +26,7 @@ git clone https://github.com/s-r-e-e-r-a-j/SiteScraper.git
 cd SiteScraper
 ```
 
-### install Required libraries:-
+### install Required libraries:
 
 ```bash
 pip3 install -r requirements.txt
